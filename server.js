@@ -4,7 +4,7 @@ const fs = require("fs");
 const shortid = require('shortid');
 
 const app = express();
-const port = 3000;
+const PORT = 3000;
 const pathDir = path.join(__dirname, "/public");
 
 app.use(express.static('public'));
